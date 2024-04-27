@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(28, 28, 54);
+    
+}
+
+.menu {
+    display: flex;
+    color: white;
+    justify-content: right;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+
+.header-container {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 60px;
+}
+
+.signup {
+    background-color: rgb(60, 133, 228);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.description {
+    max-width: 400px;
+    text-wrap: wrap;
+    font-size: large;
+}
+
+.header {
+    font: bold;
+    font-size:xx-large;
+    max-width: 400px;
+    text-wrap: wrap;
+    padding-top: 16px;
+}
+
+.my-headshot {
+    border-radius: 25px;
+}
+
+.main-content {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 60px;
+    padding-top: 70px;
+    height: 350px;
+}
+
+.images {
+    margin-top: 16px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.img-descriptions {
+    display: flex;
+    font-weight: normal;
+    font-size: medium;
+    justify-content: center;
+    gap: 30px;
+}
+
+.one {
+    max-width: 150px;
+    text-wrap: wrap;
+    margin-top: 12px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    color: rgb(92, 92, 92);
+    font-style: italic;
+    font-size: x-large;
+    background-color: rgb(217, 229, 240);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.two {
+    max-width: 500px;
+    text-wrap: wrap;
+    margin: 100px;
+}
+
+.three {
+    margin-top: -80px;
+    margin-left: 200px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 80px;
+}
+
+.signup-2 {
+    background-color: rgb(60, 133, 228);
+    color: white;
+    border: solid white 1px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+.bar {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    color: white;
+    background-color: rgb(60, 133, 228);
+    padding: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 100px;
+    border-radius: 5px;
+}
+
+.textA {
+    font-weight: bold;
+    font-size: large;
+}
+
+.copyright {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 25px;
+}
